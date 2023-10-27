@@ -21,7 +21,7 @@ let result = r.charCodeAt(10);
 console.log(result);
 
 let foo = "hello i am in guvi, RAIN, main, spain";
-let f = foo.match(/aine/gi);
+let f = foo.match(/aine/gi);//regex
 console.log(f);
 
 let alphabets = ["g","a","y","b"];
