@@ -1,0 +1,104 @@
+inbuilt functions sessions:
+
+"hello world"
+
+split(), reverse(), join()
+
+1. number methods
+2. boolean methods
+3. string methods
+4. array methods
+5. date methods
+6. Math Methods
+
+number method:
+
+1. constructor=> by default this is a number object.
+2. toexponential=> it gives exp math expression of a number
+3. to fixed=> it stops the mentions decimal point
+4. tolocalestring=> it returns the locale date and time
+5. toprecision => defines how many total digits to display of a number.
+6. tostring => returns the string. 
+7. valueof=> return the number's value.
+
+Boolean method:
+
+1.tosource=> we are not used, ES1. 
+2.tostring;
+3.valueof();
+
+string method:
+
+1. charAt()=> it returns the character at the specified index.
+2. chatcodeat()=> 
+3. concat()=>
+4. indexof()=> first occurence
+5. lastindexof()=> last occurence
+6. length
+7. match
+8. replace
+9. search()
+10.slice()
+11.split()
+12.substr()
+13.substring()
+14.tostring()
+15. touppercase
+16.tolowercase
+17.valueof()
+18.tolocaleuppercase
+19.tolocalelowercase
+20. trim()
+
+Array methods:
+
+sort=> arrange or assemble.21, 100=> 100,21
+splice
+tostring
+unshift
+shift
+pop
+push
+tosource
+some
+reverse
+reduce
+join
+every
+concat
+filter
+foreach
+
+rotate k times=> 1,2,3,4,5=> 2,3,4,5,1 =>  5,1,2,3,4 => 4,5,1,2,3=> 3,4,5,1,2=> 3
+
+date method:
+
+getday
+getfullyear
+gethours
+date()
+getmiuntes
+getseconds
+getmillseconds
+gettime()
+settime()etc.
+
+math method:
+
+abs()
+acos()
+asin()
+atan()
+atan2()
+ceil()=> rounded to the uppertop value
+cos()
+exp()
+floor()=> rounded to the lowest end value.
+log()
+max()
+pow()
+random()
+round()
+sin()
+sqrt()
+tan()

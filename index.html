@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function separateVowelsAndConsonants(input)
+         {const vowels = [];
+            const consonants = [];
+            for (let i = 0; i < input.length; i++) {
+const char = input[i].toLowerCase(); 
+if (/[aeiou]/.test(char)) {
+vowels.push(input[i]);
+}
+ else if (/[a-z]/.test(char)) {
+consonants.push(input[i]);
+}
+            }
+            return vowels.join('') + consonants.join('')
+        }
+
+const input = "GuVI";
+const output = separateVowelsAndConsonants(input);
+console.log(output); 
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
